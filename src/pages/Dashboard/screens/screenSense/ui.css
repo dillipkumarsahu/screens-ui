@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.screen-row{
+    width: 6000px;
+    height: auto;
+    float: left;
+}
+.screen-col{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-red{
+    background-color: red;
+}
+.text-red{
+    color: red;
+}
+.delete-option{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: auto;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    z-index: 10000;
+}
+#close-delete{
+    cursor: pointer;
+}
